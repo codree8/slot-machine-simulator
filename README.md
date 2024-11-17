@@ -27,11 +27,13 @@ The slot machine allows users to deposit money, place bets on up to three lines,
    cd slot-machine-simulator
 
 2. Install the required dependencies:
-
+   
+   ```bash
    npm install prompt-sync
 
-3. Run the application:
-
+4. Run the application:
+   
+   ```bash
    node project.js
 
 ## How to Play
@@ -43,12 +45,12 @@ The slot machine allows users to deposit money, place bets on up to three lines,
 5. Winnings are added to your balance, and you can play again or quit.
 
 ## Directory Structure
-
-slot-machine-simulator/
-│
-├── project.js        # Main JavaScript file for the project
-├── package.json      # NPM package configuration file
-└── README.md         # Project documentation
+    ```bash
+    slot-machine-simulator/
+    │
+    ├── project.js        # Main JavaScript file for the project
+    ├── package.json      # NPM package configuration file
+    └── README.md         # Project documentation
 
 ## License
 
